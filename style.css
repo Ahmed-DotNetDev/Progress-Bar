@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5rem;
+  font-family: Poppins;
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5rem;
+}
+
+main {
+  width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 7px;
+  background-color: #0396c7;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 100px;
+  min-height: 50px;
+  margin: 0px auto;
+}
+
+button:hover {
+  background-color: #00bfff;
+  transition: 0.2s ease-in-out;
+  outline: 3px solid #333;
+}
+
+footer {
+  bottom: 0;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+ul {
+  margin-bottom: 50px;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  width: 50%;
+  border-radius: 10px;
+  height: 25px;
+  color: #333;
+  margin: 25px;
+  padding-right: 10px;
+  margin-left: 0;
+  background-color: #008cba;
+  text-align: right;
+}
+
+footer {
+  font-size: large;
+}
+footer a {
+  text-decoration: none;
+}
+
+.barTemplate {
+  background-color: #EBEBEB;
+  border-radius: 10px;
+  width: 70vw;
+  margin: 0px auto;
+}/*# sourceMappingURL=style.css.map */
